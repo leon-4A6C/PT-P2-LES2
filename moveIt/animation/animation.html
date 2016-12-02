@@ -5,10 +5,12 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
-    <button onclick="toLeft();">move to the left</button>
-    <button onclick="toRight();">move to the right</button>
-    <button onclick="toBottom();">move to the bottom</button>
-    <button onclick="toTop();">move to the top</button>
+    <button id="toLeft" onclick="toLeft();">move to the left</button>
+    <button id="toRight" onclick="toRight();">move to the right</button>
+    <button id="toBottom" onclick="toBottom();">move to the bottom</button>
+    <button id="toTop" onclick="toTop();">move to the top</button>
+    <button id="rotateLeft" onclick="rotateLeft();">rotate to the left</button>
+    <button id="rotateRight" onclick="rotateRight();">rotate to the right</button>
     <div id="movingDiv"></div>
     <div id="ghostingDiv"></div>
     <script src="main.js"></script>
