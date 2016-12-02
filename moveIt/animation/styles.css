@@ -1,0 +1,9 @@
+div{
+  width: 10em;
+  height: 10em;
+  background: #eee;
+  transition: margin-left 0.5s, margin-top 0.5s;
+}
+#ghostingDiv{
+  margin-top: -10em;
+}
