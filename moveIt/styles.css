@@ -1,0 +1,6 @@
+#blokje{
+    width: 5em;
+    height: 5em;
+    background: #eee;
+    transition: margin-left 0.5s, margin-top 0.5s, padding 0.5s, transform 0.5s;
+}
