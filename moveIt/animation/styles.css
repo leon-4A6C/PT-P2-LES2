@@ -1,7 +1,7 @@
 div{
   width: 10em;
   height: 10em;
-  background: #eee;
+  background: #1abc9c;
   transition: margin-left 0.5s, margin-top 0.5s, transform 0.5s;
 }
 #ghostingDiv{
